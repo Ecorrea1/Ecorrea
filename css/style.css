@@ -64,6 +64,7 @@ footer {
 #hello {
     width: 100%;
     height: 55rem;
+    position: relative;
 }
 
 .inner-link {
@@ -100,8 +101,8 @@ footer {
 .container-view-short {
     width: 100%;
     height: 100px;
-    /* position: absolute; */
-    /* bottom: 0px; */
+    position: absolute;
+    bottom: 0px;
     display: flex;
     justify-content: center;
     background-color: #44CCD3;
