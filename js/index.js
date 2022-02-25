@@ -3,7 +3,7 @@ const profession = ['FULL-STACK DEVELOPER','WEB DEVELOPER', 'FLUTTER DEVELOPER',
 const lng = [{libs:'Javascripts', age: 2}, {libs:'TypeScript', age: 2}, {libs:'PHP', age: 2 }, {libs:'C#', age: 1 }, {libs:'Dart', age: 2}];
 const tecnologies = [{libs:'React', age: 1}, {libs:'Flutter', age: 2}, {libs:'Codeigneiter', age: 2}, {libs:'Node', age: 1 }, {libs:'Express', age: 1}];
 const portfolio = [{title:'INVAPP', description:'App de inventario para iglesia comisionado sin fronteras, santiago-Chile', type:'full' ,url:'iglesiacsf.cl/invapp/', img:''}, {title:'TRANSMITO.CL', description:'', url:'transmito.cl/', img:'', type: 'web'}, {title:'OPTICA - MONTECARLOS', description:'Ecommerce realizado con WordPress para optica de la ciudad de Los Lagos - Chile', url:'opticamontecarlos.cl/', img:'', type:'webs'}];
-const titleLinksText = `Mi nombre es ${name} y soy ${ profession[0] }.`;
+const titleLinksText = [`Mi nombre es ${name}` ,`y soy ${ profession[0] }.`];
 const age = '27';
 const address = 'Calle San Juan, San Juan, San Juan, Puerto Rico';
 const city = 'Los Lagos';
@@ -22,7 +22,7 @@ const wspLink = document.getElementById('link_wsp');
 
 wspLink.href = wtspApi;
 titleName.innerHTML = name;
-titleLinks.innerHTML = `<h2> ${titleLinksText.toUpperCase()} </h2>`;
+titleLinks.innerHTML = `<h2> ${titleLinksText[0].toUpperCase()} </h2> <h2> ${titleLinksText[1].toUpperCase()} </h2>`;
 
 function changeProfession() {
 
