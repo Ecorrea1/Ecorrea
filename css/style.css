@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    background: url(../assets/img/fondo.jpg) no-repeat center center fixed;
+    /* background: url(../assets/img/fondo.jpg) no-repeat center center fixed; */
     background-size: cover;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
