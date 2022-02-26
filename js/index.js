@@ -24,7 +24,7 @@ const wspLink = document.getElementById('link_wsp');
 
 wspLink.href = wtspApi;
 titleName.innerHTML = name;
-titleLinks.innerHTML = `<h2> ${titleLinksText[0].toUpperCase()} </h2> <h2> ${titleLinksText[1].toUpperCase()} </h2>`;
+titleLinks.innerHTML = `<h2> ${titleLinksText[0].toUpperCase()} ${titleLinksText[1].toUpperCase()} </h2>`;
 
 function changeProfession() {
 
@@ -40,27 +40,6 @@ function changeProfession() {
     }, 1500);
 
 }
-
-
-// window.addEventListener('scroll', () => {
-
-//     if ( window.scrollY > 0 ) {
-//         navBar.classList.add('fixed-top');
-//         navBar.classList.remove('navbar-dark');
-//         navBar.classList.remove('bg-dark');
-//         navBar.classList.add('navbar-light');
-//         navBar.classList.add('bg-light');
-//         // navBar.style.backgroundColor = '#e3f2fd';
-//     } 
-//     else {
-//         navBar.classList.remove('fixed-top');
-//         navBar.classList.remove('navbar-light');
-//         navBar.classList.remove('bg-light');
-//         navBar.classList.add('navbar-dark');
-//         // navBar.classList.add('bg-dark');
-//         navBar.style.backgroundColor = 'transparent !important';
-//     }
-// })
 
 btnMoveDown.addEventListener('click', () => {
     window.scrollTo({

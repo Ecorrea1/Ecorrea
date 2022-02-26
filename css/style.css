@@ -118,6 +118,17 @@ footer {
 
 }
 
+.links-titles {
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 800; 
+    text-align: center;
+}
+
+
+.links-titles :hover { color: #44CCD3 }
+
 .links-2 {
     text-decoration: none;
     color: grey;
@@ -126,13 +137,16 @@ footer {
     text-align: center;
 }
 
+.links-2 :hover { color: #44CCD3; }
+
 .span-short-description {
     font-size: 14px;
-    margin-top: 40px;
+    padding-top: 40px;
     color: grey;
+    align-items: center;
     text-align: center;
     text-justify: center;
-    text-overflow: clip;
+    /* text-overflow: clip; */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -145,6 +159,29 @@ footer {
     justify-content: center;
     background-color: #44CCD3;
     
+}
+
+.container-links-title {
+    padding-top: 1%;
+    /* padding-bottom: 1%; */
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+.p-description {
+    font-size: 15px;
+    display: inline-block;
+    color: grey;
+    text-align: center;
+    text-justify: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-bottom: 3.5%;
+    /* text-overflow: clip; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container-transparent {
