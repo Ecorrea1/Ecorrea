@@ -1,7 +1,5 @@
 body {
     background-color: black;
-    /* background: url(../assets/img/fondo.jpg) no-repeat center center fixed; */
-    background-size: cover;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -31,6 +29,10 @@ h1 {
     font-weight: 400;
 }
 
+p, li, ul {
+    color:grey;
+}
+
 footer {
     padding: 10px 0;
     background-color: #333333;
@@ -44,70 +46,18 @@ footer {
     bottom: 0; 
 }
 
+
 /* .header .navbar {
     background-color: transparent !important;
 } */
 
 /* Estilo general para las imagenes */
 .img-logo {
-   border-radius: 50%;
-}
+    border-radius: 50%;
+ }
+ 
 
-.title-header {
-    /* background-color: #000000; */
-    background-color: transparent !important;
-    /* width: 100%; */
-    padding: 160px 0;
-    font-family: "Oswald", Helvetica, Arial, sans-serif;
-    /* height: 20rem; */
-}
-
-.container-hello {
-
-    margin-top: 10%;
-    margin-bottom: 1.5%;
-    background-color: #44CCD3;
-    width: 150px;
-    height: 110px;
-    padding: 10px 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-/* Estilo para el boton de abajo */
-#container-btn-down {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -10px;
-}
-
-
-#hello {
-    background-color: #fff;
-    width: 100%;
-    height: 55rem;
-    position: relative;
-}
-
-.inner-link {
-
-	/* display:none; */
-    margin-top: 10rem;
-	padding:10px;
-	background:#44CCD3;
-	font-size:20px;
-	color:#fff;
-    text-decoration:none;
-	cursor:pointer;
-	/* position: fixed; */
-}
-
-/* Estilo para los links generales */
+ /* Estilo para los links generales */
 .links {
 
     text-decoration: none;
@@ -117,6 +67,8 @@ footer {
     text-align: center;
 
 }
+
+.links :hover { color: #44CCD3; }
 
 .links-titles {
     text-decoration: none;
@@ -138,83 +90,6 @@ footer {
 }
 
 .links-2 :hover { color: #44CCD3; }
-
-.span-short-description {
-    font-size: 14px;
-    padding-top: 40px;
-    color: grey;
-    align-items: center;
-    text-align: center;
-    text-justify: center;
-    /* text-overflow: clip; */
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.container-view-short {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 0px;
-    display: flex;
-    justify-content: center;
-    background-color: #44CCD3;
-    
-}
-
-.container-links-title {
-    padding-top: 1%;
-    /* padding-bottom: 1%; */
-    padding-left: 28%;
-    padding-right: 28%;
-}
-
-.p-description {
-    font-size: 15px;
-    display: inline-block;
-    color: grey;
-    text-align: center;
-    text-justify: center;
-    word-spacing: 3px;
-    letter-spacing: 1px;
-    padding-top: 20px;
-    padding-left: 28%;
-    padding-right: 28%;
-    padding-bottom: 3.5%;
-    /* text-overflow: clip; */
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.container-transparent {
-    background-color: transparent !important;
-    color:white;
-    width: 100%;
-    height: 300px;
-    /* position: absolute; */
-    /* top: 0; */
-    /* left: 0; */
-    /* z-index: -1; */
-}
-
-/* Boton flotante de Wasapp */
-.buttom-flout {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 64px; 
-    height: 64px; 
-    background: #49C958 none repeat scroll 0% 0%;
-    color: white; 
-    border-radius: 32px;
-    position: fixed;
-    right: 18px; 
-    bottom: 45px; 
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px; 
-    z-index: 9999;
-    cursor: pointer;
-    font-weight: 600; 
-    transition: all 0.2s ease 0s; 
-    transform: scale(1);
-}
 
 .footer-logo {
    

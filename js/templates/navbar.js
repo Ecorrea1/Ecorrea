@@ -7,7 +7,7 @@ class Navbar extends HTMLElement {
         this.innerHTML = `
         <nav id="navBar" class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="/assets/img/logo.png" alt="ecorrea-logo" width="24" height="24" class="d-inline-block align-text-top img-logo"> 
+            <a class="navbar-brand" href="http://ecorrea.cl/"><img src="/assets/img/logo.png" alt="ecorrea-logo" width="24" height="24" class="d-inline-block align-text-top img-logo"> 
               Emmanuel Correa
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,16 +16,16 @@ class Navbar extends HTMLElement {
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">INICIO</a>
+                  <a class="nav-link" aria-current="page" href="http://ecorrea.cl/">INICIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SOBRE MI</a>
+                  <a class="nav-link" href="http://ecorrea.cl/">SOBRE MI</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PORTAFOLIO</a>
+                  <a class="nav-link" href="http://ecorrea/portafolio.html">PORTAFOLIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">CONTACTO</a>
+                  <a class="nav-link" href="http://ecorrea.cl/">CONTACTO</a>
                 </li>
               </ul>
             </div>
