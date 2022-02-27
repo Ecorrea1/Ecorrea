@@ -21,13 +21,13 @@ class Header extends HTMLElement {
                   <a class="nav-link" aria-current="page" href="http://ecorrea.cl/">INICIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://ecorrea.cl/">SOBRE MI</a>
+                  <a class="nav-link" href="https://ecorrea.cl/">SOBRE MI</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://ecorrea/portafolio.html">PORTAFOLIO</a>
+                  <a class="nav-link" href="https://ecorrea/portafolio.html">PORTAFOLIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="http://ecorrea.cl/">CONTACTO</a>
+                  <a class="nav-link" href="https://ecorrea.cl/">CONTACTO</a>
                 </li>
               </ul>
             </div>
@@ -47,8 +47,8 @@ class Header extends HTMLElement {
             </h2>
           </div> 
           <div id="container-btn-down" class="container-fluid">
-            <!-- <a href="#hello" id="btn-move-down" class="link-light inner-link">V</a> -->
-            <a id="btn-move-down" class="link-light inner-link"> V  </a>
+           <a href="#hello" id="btn-move-down" class="link-light inner-link">V</a> 
+           <!-- <a id="btn-move-down" class="link-light inner-link"> V </a> -->
           </div>
         </div>  
       </header>
