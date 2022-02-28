@@ -24,7 +24,7 @@ class Header extends HTMLElement {
                   <a class="nav-link" href="https://ecorrea.cl/">SOBRE MI</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://ecorrea/portafolio.html">PORTAFOLIO</a>
+                  <a class="nav-link" href="https://ecorrea.cl/portafolio.html">PORTAFOLIO</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://ecorrea.cl/">CONTACTO</a>
