@@ -18,7 +18,7 @@ class Header extends HTMLElement {
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a id="link-home" class="nav-link" aria-current="page" href="">INICIO</a>
+                  <a id="link-home" class="nav-link" href="">INICIO</a>
                 </li>
                 <li class="nav-item">
                   <a id="link-about"class="nav-link" href="">SOBRE MI</a>

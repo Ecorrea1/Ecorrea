@@ -46,6 +46,53 @@ footer {
     bottom: 0; 
 }
 
+.color-primary {
+    color: #00a8ff;
+}
+
+.color-secundary {
+    color: #ffc107;
+}
+
+.color-background {
+    background-color: white;
+}
+
+.color-background-info {
+    background-color:#f2f2f2;
+}
+
+.btn-color-primary {
+    background-color: #00a8ff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px;
+
+}
+
+.btn-color-secundary {
+    
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px;
+
+}
+
+
+
+.container-primary {
+    background-color: #fff;
+    width: 100%;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    height: 100px;
+    /* border: 1px solid blueviolet; */
+}
+
 /* Estilo general para las imagenes */
 .img-logo {
     border-radius: 50%;

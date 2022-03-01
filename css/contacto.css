@@ -1,0 +1,27 @@
+h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+p, ul, li {
+    font-size: 14.3px;
+    color:grey;
+}
+
+.titles-start {
+    font-size: 20px;
+    font-family: 'Oswald';
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    padding-top: 29px;
+    letter-spacing: 3px;
+    /* margin-bottom: 1em; */
+}
+
+
+.container-contact {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    /* margin: 0px; */
+}

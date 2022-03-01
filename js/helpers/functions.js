@@ -17,15 +17,15 @@ const aLinkContact = document.getElementById('link-contact');
 if ( mode == 'production' ) {
 
     aLinkHome.href = protocol[1] + linkMode[1] + links[0];
-    aLinkAbout.href = protocol[1] + linkMode[1] + links[1];
+    aLinkAbout.href = protocol[1] + linkMode[1] + links[0];
     aLinkProfile.href = protocol[1] + linkMode[1] + links[2];
-    aLinkContact.href = protocol[1] + linkMode[1] + links[3];
+    aLinkContact.href = protocol[1] + linkMode[1] + links[0];
     // aLinkPrivacy.href = protocol[1] + linkMode[1] + links[4];
 
 } else {
 
     aLinkHome.href = protocol[0] + linkMode[0] + links[0];
-    aLinkAbout.href = protocol[0] + linkMode[0] + links[1];
+    aLinkAbout.href = protocol[0] + linkMode[0] + links[0];
     aLinkProfile.href = protocol[0] + linkMode[0] + links[2];
     aLinkContact.href = protocol[0] + linkMode[0] + links[3];
     // aLinkPrivacy.href = protocol[0] + linkMode[0] + links[4];
