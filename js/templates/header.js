@@ -18,16 +18,16 @@ class Header extends HTMLElement {
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="http://ecorrea.cl/">INICIO</a>
+                  <a id="link-home" class="nav-link" aria-current="page" href="">INICIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://ecorrea.cl/">SOBRE MI</a>
+                  <a id="link-about"class="nav-link" href="">SOBRE MI</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://ecorrea.cl/portafolio.html">PORTAFOLIO</a>
+                  <a id="link-profile" class="nav-link" href="">PORTAFOLIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://ecorrea.cl/">CONTACTO</a>
+                  <a id="link-contact" class="nav-link" href="">CONTACTO</a>
                 </li>
               </ul>
             </div>
