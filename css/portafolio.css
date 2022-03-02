@@ -19,17 +19,50 @@ img {
     color: black;
     padding-top: 29px;
     letter-spacing: 3px;
-    /* margin-bottom: 1em; */
 }
 
 .container-profile {
     width: 100%;
-    height: 100%;
-    /* padding-top: 5%; */
-    /* padding-bottom: 5%; */
-    /* margin: 0px; */
 }
 
 .card-link{
     text-decoration: none;
+}
+
+.container-info {
+    width: 100%;
+    height: 200px;
+}
+
+.fa-icon {
+    width: 100%;
+}
+
+.container-info-2 {
+    width: 100%;
+    height: 300px;
+}
+
+.btn-contact{
+    display: inline-block;
+    background-color: #00a8ff;
+    color: white;
+    border-radius: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-contact:hover {
+    background-color: #000000;
+    animation-delay: 500ms;
+    color: white;
+    border-radius: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px;
+
 }

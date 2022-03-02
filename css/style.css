@@ -68,6 +68,15 @@ footer {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0px;
+}
+
+.btn-color-primary:hover {
+    background-color: #000000;
+    animation-delay: 500ms;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px;
 
 }
 
