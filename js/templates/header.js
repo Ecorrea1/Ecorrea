@@ -7,7 +7,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
         <nav id="navBar" class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href=""><img src="/assets/img/logo.png" alt="ecorrea-logo" width="24" height="24" class="d-inline-block align-text-top img-logo"> 
+            <a class="navbar-brand" href="https://ecorrea.cl/index.html"><img src="/assets/img/logo.png" alt="ecorrea-logo" width="24" height="24" class="d-inline-block align-text-top img-logo"> 
               Emmanuel Correa
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
