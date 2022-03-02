@@ -19,7 +19,7 @@ if ( mode == 'production' ) {
     aLinkHome.href = protocol[1] + linkMode[1] + links[0];
     aLinkAbout.href = protocol[1] + linkMode[1] + links[0];
     aLinkProfile.href = protocol[1] + linkMode[1] + links[2];
-    aLinkContact.href = protocol[1] + linkMode[1] + links[0];
+    aLinkContact.href = protocol[1] + linkMode[1] + links[3];
     // aLinkPrivacy.href = protocol[1] + linkMode[1] + links[4];
 
 } else {
