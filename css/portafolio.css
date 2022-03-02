@@ -36,6 +36,14 @@ img {
     height: 200px;
 }
 
+#card-id{
+    width: 25%;
+}
+
+#card-id img{
+    background-size: cover;
+}
+
 .fa-icon {
     width: 100%;
 }
@@ -50,8 +58,8 @@ img {
     background-color: #00a8ff;
     color: white;
     border-radius: 5px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -61,10 +69,25 @@ img {
     animation-delay: 500ms;
     color: white;
     border-radius: 5px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: 0px;
 
+}
+
+
+/* Media querys */
+
+@media screen and (max-width: 1366px) {
+    #card-id{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #card-id{
+        width: 100%;
+    }
 }
