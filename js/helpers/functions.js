@@ -4,7 +4,7 @@ let mode = URLcurrent.hostname == ('ecorrea.cl') ? 'production' : 'development';
 
 const links = ['index.html','about.html' ,'portafolio.html', 'contacto.html', 'politica-de-privacidad.html'];
 const protocol = ['http://', 'https://'];
-const linkMode = ['127.0.0.1:5500/', 'ecorrea.cl/'];
+const linkMode = [`${URLcurrent.host}/`, 'ecorrea.cl/'];
 
 
 const aLinkHome = document.getElementById('link-home');
