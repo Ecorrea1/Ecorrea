@@ -17,6 +17,11 @@ body {
     padding: 0;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #44CCD3;
+}
+
 header {
     background-color: #000000;
     background: url(../assets/img/fondo.jpg) no-repeat center;
@@ -87,7 +92,7 @@ footer {
 }
 
 .color-primary {
-    color: #00a8ff;
+    color: #44CCD3;
 }
 
 .color-secundary {
@@ -103,7 +108,7 @@ footer {
 }
 
 .btn-color-primary {
-    background-color: #00a8ff;
+    background-color: #44CCD3;
     color: white;
     border-radius: 5px;
     padding: 10px;
@@ -130,7 +135,40 @@ footer {
 
 }
 
+.btn-color-hidden {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #44CCD3;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
 
+.span-hidden {
+    background: #44CCD3;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-color-hidden:hover span{
+    width: 100%;
+}
+
+.btn-color-hidden:hover{
+    border: none;
+}
 
 .container-primary {
     background-color: #fff;
@@ -218,40 +256,6 @@ footer {
     70%{ margin-top: 200px;}
     100%{ margin-top: 200px;}
 }
-
-/* button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #009688;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-span{
-    background: #009688;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-
-button:hover span{
-    width: 100%;
-}
-
-button:hover{
-    border: none;
-} */
 
 @media screen and (max-width: 1200px) {
     footer {
