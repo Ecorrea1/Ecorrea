@@ -15,18 +15,10 @@ class Header extends HTMLElement {
             </button>
             <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a id="link-home" class="nav-link" href="">INICIO</a>
-                </li>
-                <li class="nav-item">
-                  <a id="link-about"class="nav-link" href="">SOBRE MI</a>
-                </li>
-                <li class="nav-item">
-                  <a id="link-profile" class="nav-link" href="">PORTAFOLIO</a>
-                </li>
-                <li class="nav-item">
-                  <a id="link-contact" class="nav-link" href="">CONTACTO</a>
-                </li>
+                <li class="nav-item"><a id="link-home" class="nav-link" href="">INICIO</a></li>
+                <li class="nav-item"><a id="link-about"class="nav-link" href="">SOBRE MI</a></li>
+                <li class="nav-item"><a id="link-profile" class="nav-link" href="">PORTAFOLIO</a></li>
+                <li class="nav-item"><a id="link-contact" class="nav-link" href="">CONTACTO</a></li>
               </ul>
             </div>
           </div>

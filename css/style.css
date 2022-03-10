@@ -19,13 +19,44 @@ body {
 
 header {
     background-color: #000000;
-    /* background: url(../assets/img/fondo.jpg) no-repeat center; */
-    /* background-size: cover; */
+    background: url(../assets/img/fondo.jpg) no-repeat center;
+    background-size: cover;
     min-height: 100vh;
 }
 
 nav {
     background-color: transparent !important;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 35px 2;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 0px;
+    position: relative;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #44CCD3;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
 }
 
 h1 {
@@ -162,6 +193,65 @@ footer {
     margin-top: -20px;
 }
 
+.slider {
+    color: rgb(0, 150, 136);
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: 6s linear 0s infinite normal none running slider;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes slider{
+    0%{ margin-top: -400px;}
+    5%{ margin-top: -200px;}
+    30%{ margin-top: -200px;}
+    35%{ margin-top: 0px;}
+    65%{ margin-top: 0px;}
+    70%{ margin-top: 200px;}
+    100%{ margin-top: 200px;}
+}
+
+/* button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+} */
 
 @media screen and (max-width: 1200px) {
     footer {
