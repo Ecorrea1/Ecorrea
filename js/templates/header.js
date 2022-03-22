@@ -6,7 +6,7 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <nav id="navBar" class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
+          <div class="container">
             <a class="navbar-brand" href="https://ecorrea.cl/index.html"><img src="/assets/img/logo.png" alt="ecorrea-logo" width="24" height="24" class="d-inline-block align-text-top img-logo"> 
               Emmanuel Correa
             </a>

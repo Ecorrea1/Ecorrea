@@ -39,17 +39,20 @@ nav {
     justify-content: space-between;
 
 }
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0px 0px;
     position: relative;
 }
+
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
 }
+
 .navbar ul li::after{
     content: '';
     height: 3px;
@@ -60,8 +63,20 @@ nav {
     bottom: -3px;
     transition: 0.5s;
 }
+
 .navbar ul li:hover::after{
     width: 100%;
+}
+
+.titles-start {
+    font-size: 20px;
+    font-family: 'Oswald';
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    padding-top: 29px;
+    letter-spacing: 3px;
+    /* margin-bottom: 1em; */
 }
 
 h1 {
@@ -74,7 +89,12 @@ h1 {
     font-weight: 400;
 }
 
-p, li, ul {
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+p, ul, li {
+    font-size: 14.3px;
     color:grey;
 }
 
@@ -183,8 +203,7 @@ footer {
 /* Estilo general para las imagenes */
 .img-logo {
     border-radius: 50%;
- }
- 
+}
 
  /* Estilo para los links generales */
 .links {
@@ -207,7 +226,6 @@ footer {
     text-align: center;
 }
 
-
 .links-titles :hover { color: #44CCD3 }
 
 .links-2 {
@@ -220,8 +238,7 @@ footer {
 
 .links-2 :hover { color: #44CCD3; }
 
-.footer-logo {
-   
+.footer-logo {  
     float: right;
     font-size: 16px;
     font-family: 'Oswald'; 

@@ -19,7 +19,7 @@ const editors = [{libs:'VS Code', age: 1}, {libs:'Sublime Text', age: 1}, {libs:
 
 const numberFinishedProjects = 8;
 const numberStartingProjects = 2;
-const numberHrsSold = '1200 HRS';
+const numberHrsSold = '14400 HRS';
 
 const finishProjects = document.getElementById('finish-projects');
 const startingProjects = document.getElementById('starting-projects');
