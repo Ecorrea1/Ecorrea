@@ -7,9 +7,9 @@ p, ul, li {
     color:grey;
 }
 
-img {
+/* img {
     cursor: pointer;
-}
+} */
 
 .titles-start {
     font-size: 20px;
@@ -36,13 +36,14 @@ img {
     height: 200px;
 }
 
-#card-id{
-    width: 25%;
-}
-
+/* #card-id{
+    width: 100%;
+} */
+/* 
 #card-id img{
+    width: 100%;
     background-size: cover;
-}
+} */
 
 .fa-icon {
     width: 100%;
@@ -78,7 +79,7 @@ img {
 }
 
 /* Media querys */
-@media screen and (max-width: 1366px) {
+/* @media screen and (max-width: 1366px) {
     #card-id{
         width: 50%;
     }
@@ -88,4 +89,4 @@ img {
     #card-id{
         width: 100%;
     }
-}
+} */
