@@ -2,7 +2,7 @@ const navBar = document.querySelector('.navbar');
 const URLcurrent = window.location;
 let mode = URLcurrent.hostname == ('ecorrea.cl') ? 'production' : 'development';
 
-const links = ['index.html','about.html' ,'portafolio.html', 'contacto.html', 'politica-de-privacidad.html'];
+const links = ['index.html','sobre-mi.html' ,'portafolio.html', 'contacto.html', 'politica-de-privacidad.html'];
 const protocol = ['http://', 'https://'];
 const linkMode = [`${URLcurrent.host}/`, 'ecorrea.cl/'];
 
@@ -17,7 +17,7 @@ const aLinkContact = document.getElementById('link-contact');
 if ( mode == 'production' ) {
 
     aLinkHome.href = protocol[1] + linkMode[1] + links[0];
-    aLinkAbout.href = protocol[1] + linkMode[1] + links[0];
+    aLinkAbout.href = protocol[1] + linkMode[1] + links[1];
     aLinkProfile.href = protocol[1] + linkMode[1] + links[2];
     aLinkContact.href = protocol[1] + linkMode[1] + links[3];
     // aLinkPrivacy.href = protocol[1] + linkMode[1] + links[4];
@@ -25,7 +25,7 @@ if ( mode == 'production' ) {
 } else {
 
     aLinkHome.href = protocol[0] + linkMode[0] + links[0];
-    aLinkAbout.href = protocol[0] + linkMode[0] + links[0];
+    aLinkAbout.href = protocol[0] + linkMode[0] + links[1];
     aLinkProfile.href = protocol[0] + linkMode[0] + links[2];
     aLinkContact.href = protocol[0] + linkMode[0] + links[3];
     // aLinkPrivacy.href = protocol[0] + linkMode[0] + links[4];
