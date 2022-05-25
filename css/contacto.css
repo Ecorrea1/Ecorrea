@@ -21,6 +21,24 @@ p, ul, li {
 .container-contact {
     width: 100%;
     height: 100%;
-    padding: 10%;
+    padding: 7%;
     /* margin: 0px; */
+}
+
+@media screen and (max-width: 1366px) {
+    .container-contact {
+        width: 100%;
+        height: 100%;
+        padding: 12%;
+        /* margin: 0px; */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container-contact {
+        width: 100%;
+        height: 100%;
+        padding: 10%;
+        /* margin: 0px; */
+    }
 }
