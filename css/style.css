@@ -193,9 +193,9 @@ footer {
 .container-primary {
     background-color: #fff;
     width: 100%;
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     height: 100px;
     /* border: 1px solid blueviolet; */
 }
