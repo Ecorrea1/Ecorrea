@@ -1,0 +1,15 @@
+.container-hobbies {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+}
+
+.spotify{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}

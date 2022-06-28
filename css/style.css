@@ -8,11 +8,11 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
-    color: white;
+    /* color: white; */
     margin: 0;
     padding: 0;
 }
@@ -73,6 +73,17 @@ nav {
     font-family: 'Oswald';
     text-align: center;
     font-weight: 400;
+    color: black;
+    padding-top: 29px;
+    letter-spacing: 3px;
+    /* margin-bottom: 1em; */
+}
+
+.titles-secondary {
+    font-size: 20px;
+    font-family: 'Oswald';
+    text-align: center;
+    font-weight: 300;
     color: black;
     padding-top: 29px;
     letter-spacing: 3px;
