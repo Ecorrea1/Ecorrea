@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
         this.innerHTML = `
         <footer>    
    
-        <div class="footer-copyright text-center">© 2022 -
+        <div class="footer-copyright text-center">© 2023 -
           <a id="link-home" class="text-center links-2" href="">ECORREA by EMMANUEL CORREA</a>
           CONTRUYENDO APLICACIONES CON PASION DESDE LOS LAGOS PARA EL MUNDO | 
           <a id="link-privacy" class="text-center links-2" href="https://ecorrea.cl/politica-de-privacidad.html"> POLITICAS DE PRIVACIDAD </a> 
