@@ -1,4 +1,3 @@
-
 .body {
     /* background-color: black; */
     background: url(../assets/img/fondo.jpg) no-repeat center center fixed;
@@ -16,8 +15,11 @@
     /* height: 20rem; */
 }
 
-.container-hello {
+.title-name {
+    color: whitesmoke;
+}
 
+.container-hello {
     margin-top: 10%;
     margin-bottom: 1.5%;
     background-color: #44CCD3;
@@ -29,7 +31,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 /* Estilo para el boton de abajo */
@@ -80,7 +81,6 @@
     display: flex;
     justify-content: center;
     background-color: #44CCD3;
-    
 }
 
 .container-links-title {
@@ -116,7 +116,6 @@
 }
 
 .container-transparent p {
-
     color:white;
     font-size: 20px;
     text-align: center;
