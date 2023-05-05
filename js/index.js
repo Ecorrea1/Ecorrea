@@ -1,5 +1,5 @@
 const name = 'EMMANUEL CORREA';
-const age = '27';
+const age = '28';
 const address = 'Los Lagos, Valdivia, Chile';
 const city = 'Los Lagos';
 const email = 'ebcorreac@gmail.com';
@@ -10,7 +10,7 @@ const profession = ['FULL-STACK DEVELOPER','WEB DEVELOPER', 'FLUTTER DEVELOPER',
 const titleLinksText = [`Mi nombre es ${name}` ,`y soy ${ profession[0] }.`];
 
 
-const lng = [{libs:'Javascripts', age: 2}, {libs:'TypeScript', age: 2}, {libs:'PHP', age: 2 }, {libs:'C#', age: 1 }, {libs:'Dart', age: 2}];
+const lng = [{libs:'Javascripts', age: 2}, {libs:'TypeScript', age: 2}, {libs:'PHP', age: 2 }, {libs:'Dart', age: 2}];
 const tecnologies = [{libs:'React', age: 1}, {libs:'Flutter', age: 2}, {libs:'Codeigneiter', age: 2}, {libs:'Node', age: 1 }, {libs:'Express', age: 1}];
 const dbase = [{libs:'MongoDB', age: 1}, {libs:'MySQL', age: 1}, {libs:'SQLServer', age: 2 }, {libs:'Firebase', age: 1 }, {libs:'Firestore', age: 1}];
 const tools = [{libs:'Git', age: 1}, {libs:'GitHub', age: 1}, {libs:'GitLab', age: 1 }, {libs:'GitKraken', age: 1 }, {libs:'GitFlow', age: 1}];
@@ -60,18 +60,12 @@ startingProjects.innerHTML = numberStartingProjects;
 hrsSold.innerHTML = numberHrsSold;
 
 function changeProfession() {
-
     let prof = 0;
-    titleProfession.innerHTML = profession[prof];
+    titleProfession.textContent = profession[prof];
     setInterval(() => {
-        if (prof < profession.length) {
-            titleProfession.innerHTML = profession[prof];
-            prof++;
-        } else {
-            prof = 0;
-        }
+        prof = (prof + 1) % profession.length;
+        titleProfession.textContent = profession[prof];
     }, 1500);
-
 }
 
 btnMoveDown.addEventListener('click', () => {

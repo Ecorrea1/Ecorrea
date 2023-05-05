@@ -41,6 +41,11 @@
     margin-top: -10px;
 }
 
+.container-right {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-weight: lighter;
+}
 
 #hello {
     background-color: #fff;
@@ -85,7 +90,6 @@
 
 .container-links-title {
     padding-top: 1%;
-    /* padding-bottom: 1%; */
     padding-left: 28%;
     padding-right: 28%;
 }
@@ -137,6 +141,32 @@
     padding-left: 20%;
     padding-right: 20%;
 }
+
+/* Imgen de Ecorrea */
+
+.img-ecorrea {
+    width: 100%;
+    /* height: 20%; */
+    background-size: cover;
+}
+
+.icons-rs {
+    width: 30px;
+    height: 30px;
+    /* background-size: cover; */
+}
+
+.color-primary {
+    background-color: #fff;
+    color: black;
+}
+
+.color-dark {
+    background-color: black;
+    color: white;
+}
+
+
 
 /* Boton flotante de Wasapp */
 .buttom-flout {
