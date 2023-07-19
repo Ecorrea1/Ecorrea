@@ -1,18 +1,15 @@
 const navBar = document.querySelector('.navbar');
-const URLcurrent = window.location;
-let mode = URLcurrent.hostname == ('ecorrea.cl') ? 'production' : 'development';
+let mode = window.location.hostname == ('ecorrea.cl') ? 'production' : 'development';
 
-const links = ['index.html','sobre-mi.html' ,'portafolio.html', 'contacto.html', 'politica-de-privacidad.html'];
-const protocol = ['http://', 'https://'];
-const linkMode = [`${URLcurrent.host}/`, 'ecorrea.cl/'];
-
+const links = [ 'index.html', 'sobre-mi.html' , 'portafolio.html', 'contacto.html', 'politica-de-privacidad.html' ];
+const protocol = [ 'http://', 'https://' ];
+const linkMode = [`${ window.location.host }/`, 'ecorrea.cl/'];
 
 const aLinkHome = document.getElementById('link-home');
 const aLinkAbout = document.getElementById('link-about');
 const aLinkProfile = document.getElementById('link-profile');
 const aLinkContact = document.getElementById('link-contact');
 // const aLinkPrivacy = document.getElementById('link-privacy');
-
 
 if ( mode == 'production' ) {
 
@@ -48,7 +45,7 @@ window.addEventListener('scroll', () => {
         navBar.classList.remove('navbar-light');
         navBar.classList.remove('bg-light');
         navBar.classList.add('navbar-dark');
-        // navBar.classList.add('bg-dark');
         navBar.style.backgroundColor = 'transparent !important';
+        // navBar.classList.add('bg-dark');
     }
 });
