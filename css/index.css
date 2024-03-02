@@ -163,6 +163,10 @@
     color: white;
 }
 
+.color-profession {
+    color:#44CCD3;
+}
+
 /* Boton flotante de Wasapp */
 .buttom-flout {
     display: flex;
