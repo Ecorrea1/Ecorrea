@@ -1,5 +1,5 @@
 const name = 'EMMANUEL CORREA';
-const age = '28';
+const age = '29';
 const address = 'Los Lagos, Valdivia, Chile';
 const city = 'Los Lagos';
 const email = 'ebcorreac@gmail.com';
@@ -44,6 +44,13 @@ const portfolio = [
         url:'opticamontecarlos.cl/', 
         img:'', 
         type:'web'
+    },
+    {
+        title:'ADMINISTRACION MOVIDA CHILE', 
+        description:'Ecommerce realizado con WordPress para optica de la ciudad de Los Lagos - Chile', 
+        url:'opticamontecarlos.cl/', 
+        img:'', 
+        type:'web'
     }
 ];
 
@@ -80,6 +87,9 @@ startingProjects.innerHTML = numberStartingProjects;
 hrsSold.innerHTML = numberHrsSold;
 
 function changeProfession(interval) {
+    if (!interval || typeof interval !== 'number') {
+        throw new Error('Invalid interval');
+    }
     const prof = 0;
     titleProfession.textContent = profession[prof];
     setInterval(() => {
